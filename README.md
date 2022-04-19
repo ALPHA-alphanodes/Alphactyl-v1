@@ -33,15 +33,15 @@
     & curl -fsSL https://deb.nodesource.com/setup_12.x | sudo bash -
     & apt install nodejs
     & npm -v
-     & apt install nginx
-      & sudo apt install certbot
-      & sudo apt install -y python3-certbot-nginx
+    & apt install nginx
+    & sudo apt install certbot
+    & sudo apt install -y python3-certbot-nginx
    
 # Step 2 Downloading Dash files from github
      & cd ../
      & cd /var/www
-       & git clone https://github.com/Dashactyl-Development/Dashactyl-
-       & cd Alphactyl-v1.0
+     & git clone https://github.com/Dashactyl-Development/Dashactyl-
+     & cd Alphactyl-v1.0
    
 # Step 3 setting up settings.json
        & nano settings.json
