@@ -40,7 +40,7 @@
 # Step 2 Downloading Dash files from github
      & cd ../
      & cd /var/www
-     & git clone https://github.com/Dashactyl-Development/Dashactyl-
+     & git clone https://
      & cd Alphactyl-v1.0
    
 # Step 3 setting up settings.json
