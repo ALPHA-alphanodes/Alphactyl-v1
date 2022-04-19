@@ -99,11 +99,9 @@ location / {
 
 # Step 5 dash  
    
-   & systemctl restart nginx
-   
-   & cd dashactyl
+    & systemctl restart nginx
+    & cd dashactyl
     & node index.js
-   
 * Your output should send the following messgae (Your port will be different
 * [WEBSITE] The dashboard successfully loaded on port 80.
 * you need to exit the process by clicking ctrl+c
