@@ -92,6 +92,7 @@ ssl_certificate /etc/letsencrypt/live/<domain>/fullchain.pem;
     ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;
     ssl_ciphers  HIGH:!aNULL:!MD5;
     ssl_prefer_server_ciphers on;
+    access_log /var/log/nginx/access.log;
 location / {
       proxy_pass http://localhost:<port>/;
       proxy_buffering off;
