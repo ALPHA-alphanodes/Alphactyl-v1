@@ -1,3 +1,4 @@
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/ZV78qSV/Stock-vector-bolt-blue-gradient-vector-icon.jpg" alt="Stock-vector-bolt-blue-gradient-vector-icon" border="0"></a>
 # Alphactyl-v1
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Alphactyl-v1 Will be release soon
 
@@ -15,15 +16,70 @@
 🟢 Discord OAuth2 as a login system.
 
 🟢 Allows users to split resources throughout multiple servers
-
-# ![#f03c15](https://via.placeholder.com/15/S9999/000000?text=+)About this project 
--
--
--
--
--
--
--
+<bold>Supported panel operating systems and webservers</bold>
+<table border="1" color="red">
+   <tr>
+      <th>Operating System</th>
+      <th>Version</th>
+       <th>nginx support</th>
+   </tr>
+   <tr>
+      <td>Ubuntu</td>
+      <td>14.04</td>
+      <td>🔴</td>
+   </tr>
+    <tr>
+      <td></td>
+      <td>16.04</td>
+      <td>🔴</td>
+   </tr>
+       <tr>
+      <td></td>
+      <td>18.04</td>
+      <td>🔴</td>
+   </tr>
+    <tr>
+      <td></td>
+      <td>20.04</td>
+      <td>✅</td>
+   </tr>
+       <tr>
+      <td>Debian</td>
+      <td>8</td>
+      <td>🔴</td>
+   </tr>
+       <tr>
+      <td></td>
+      <td>9</td>
+      <td>🔴</td>
+   </tr>
+       <tr>
+      <td></td>
+      <td>10</td>
+      <td>✅</td>
+   </tr>
+       <tr>
+      <td></td>
+      <td>11</td>
+      <td>✅</td>
+   </tr>
+       <tr>
+      <td>CentOS</td>
+      <td>6</td>
+      <td>🔴</td>
+   </tr>
+       <tr>
+      <td></td>
+      <td>8</td>
+      <td>✅</td>
+   </tr>
+       <tr>
+      <td></td>
+      <td>9</td>
+      <td>✅</td>
+   </tr>
+   </table>
+    
 # ![#f03c15](https://via.placeholder.com/15/S9999/000000?text=+)How to install
 
 # Step 1 Installing Dependencies
@@ -70,35 +126,7 @@ IMPORTANT NOTES:
        &  nano alphactyl.conf
 * then paste the script below (change all <domin> to your domin and <port> to the port you want to listen 
 dashactyl is hosted.
-   
-server {
-    listen 80;
-    server_name <domain>;
-    return 301 https://$server_name$request_uri;
-}
-server {
-    listen 443 ssl http2;
-location /afkwspath {
-  proxy_http_version 1.1;
-  proxy_set_header Upgrade $http_upgrade;
-  proxy_set_header Connection "upgrade";
-  proxy_pass "http://localhost:<port>/afkwspath";
-}
-    
-    server_name <domain>;
-ssl_certificate /etc/letsencrypt/live/<domain>/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/<domain>/privkey.pem;
-    ssl_session_cache shared:SSL:10m;
-    ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;
-    ssl_ciphers  HIGH:!aNULL:!MD5;
-    ssl_prefer_server_ciphers on;
-    access_log /var/log/nginx/access.log;
-location / {
-      proxy_pass http://localhost:<port>/;
-      proxy_buffering off;
-      proxy_set_header X-Real-IP $remote_addr;
-  }
-}
+
    
 Remember to change <domain> to your dashactyl domain.and <port> do the port that dashactyl is hosted
 # Step 5 dash  
