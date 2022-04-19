@@ -30,26 +30,26 @@
    
     & sudo apt install git
    
-   & curl -fsSL https://deb.nodesource.com/setup_12.x | sudo bash -
-   & apt install nodejs
-   & npm -v
-   & apt install nginx
-   & sudo apt install certbot
-   & sudo apt install -y python3-certbot-nginx
+    & curl -fsSL https://deb.nodesource.com/setup_12.x | sudo bash -
+    & apt install nodejs
+    & npm -v
+     & apt install nginx
+      & sudo apt install certbot
+      & sudo apt install -y python3-certbot-nginx
    
 # Step 2 Downloading Dash files from github
-   & cd ../
-   & cd /var/www
-   & git clone https://github.com/Dashactyl-Development/Dashactyl-
-   & cd Alphactyl-v1.0
+     & cd ../
+     & cd /var/www
+       & git clone https://github.com/Dashactyl-Development/Dashactyl-
+       & cd Alphactyl-v1.0
    
 # Step 3 setting up settings.json
-   & nano settings.json
+       & nano settings.json
  #edit the settings.json file and fill oauth and panel columns correctly then save it by ctrl+x
  
 # Step 4 ssl creation for domin
-   & systemctl start nginx
-   & certbot certonly --nginx -d dash.your-domain
+       & systemctl start nginx
+       & certbot certonly --nginx -d dash.your-domain
 * if cert ssl creation is successful this msg will show
 IMPORTANT NOTES:
  - Congratulations! Your certificate and chain have been saved at:
@@ -64,9 +64,10 @@ IMPORTANT NOTES:
 
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
    Donating to EFF:                    https://eff.org/donate-le
-   & cd /etc/nginx/sites_enabled
-   & touch alphactyl
-   & nano alphactyl.conf
+   
+       & cd /etc/nginx/sites_enabled
+       & touch alphactyl
+       &  nano alphactyl.conf
 * then paste the script below (change all <domin> to your domin and <port> to the port you want to listen 
 server {
     listen 80;
@@ -96,8 +97,11 @@ location / {
   }
 }
 
-    & systemctl restart nginx
-    & cd dashactyl
+# Step 5 dash  
+   
+   & systemctl restart nginx
+   
+   & cd dashactyl
     & node index.js
    
 * Your output should send the following messgae (Your port will be different
