@@ -98,12 +98,15 @@ location / {
     & systemctl restart nginx
     & cd dashactyl
     & node index.js
+   
 * Your output should send the following messgae (Your port will be different
 * [WEBSITE] The dashboard successfully loaded on port 80.
 * you need to exit the process by clicking ctrl+c
 
 # Step 5 dash
+   
     & npm install pm2 -g
     & pm2 start index.js
+   
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Disclaimer
 This project uder development We are not responsible for any damages.
