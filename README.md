@@ -1,4 +1,4 @@
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/ZV78qSV/Stock-vector-bolt-blue-gradient-vector-icon.jpg" alt="Stock-vector-bolt-blue-gradient-vector-icon" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/zNCjCHz/Stock-vector-bolt-blue-gradient-vector-icon-removebg-preview.png" alt="Stock-vector-bolt-blue-gradient-vector-icon-removebg-preview" border="0"></a>
 # Alphactyl-v1
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Alphactyl-v1 Will be release soon
 
