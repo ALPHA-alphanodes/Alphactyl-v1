@@ -28,7 +28,7 @@
 
 # Step 1 Installing Dependencies
    
-   & sudo apt install git
+    & sudo apt install git
    
    & curl -fsSL https://deb.nodesource.com/setup_12.x | sudo bash -
    & apt install nodejs
