@@ -1,4 +1,4 @@
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/zNCjCHz/Stock-vector-bolt-blue-gradient-vector-icon-removebg-preview.png" alt="Stock-vector-bolt-blue-gradient-vector-icon-removebg-preview" border="0"></a>
+<a <img src="https://i.ibb.co/zNCjCHz/Stock-vector-bolt-blue-gradient-vector-icon-removebg-preview.png" alt="Stock-vector-bolt-blue-gradient-vector-icon-removebg-preview" border="0"></a>
 # Alphactyl-v1
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Alphactyl-v1 Will be release soon
 
@@ -111,7 +111,7 @@ IMPORTANT NOTES:
  - Congratulations! Your certificate and chain have been saved at:
    /etc/letsencrypt/live/your.dashactyl.domain/fullchain.pem
    Your key file has been saved at:
-   /etc/letsencrypt/live/your.dashactyl.domain/privkey.pem
+   /etc/letsencrypt/live/your.alphactyl.domain/privkey.pem
    Your cert will expire on date. To obtain a new or tweaked
    version of this certificate in the future, simply run certbot
    again. To non-interactively renew *all* of your certificates, run
