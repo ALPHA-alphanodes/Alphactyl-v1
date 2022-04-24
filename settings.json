@@ -2,13 +2,13 @@
   "version": "1.0",
   "defaulttheme": "default",
   "website": {
-    "port": 8080,
+    "port": 2026,
     "secret": "Default Secret (Change this)"
   },
   "pterodactyl": {
-    "domain": "(Change this) your panel domail example https://panel.example.com", 
-    "_comment": "your pterodactyl panel api key with all permissions",    
-    "key": "(Change this)" 
+    "domain": "https://gp.alphanodes.xyz", 
+    "_comment": "https://gp.alphanodes.xyz/",    
+    "key": "tktediaMALhhX0of8hEWPSqarXsED77uamqPVCk4Bt1Agivk" 
   },
   "your_host_name":{
     "name":"(Change this) to your host name "  
@@ -22,7 +22,6 @@
   "msg":"Welcome to Alphactyl-v1.0 (you can change this in settings.json)" 
 },
 "ads":{
-  "_comment": "ads code to show ads in all pages",
   "enabled": true,
   "code":"Your Ads Script here "  
 },
@@ -76,11 +75,9 @@
         "overresourcessuspend": false
       },
       "oauth2": {
-        "_comment": "Go to https://discord.dev/ and create an application to set these up.",
-        "-comment2": "/ in discord dev add oauth redirect url t younot be abe to login the dash  eg : dash.your-domain/callback",
-        "id": "0000000000000",
-        "secret": "000000000000000000",
-        "link": "http://localhost:8080",
+        "id": "965456822712553475",
+        "secret": "QpjnF1kMYWLMdTSdrYhFn5rK8zI_GzUo",
+        "link": "http://localhost:2026",
         "callbackpath": "/callback",
         "prompt": true,
         "ip": {
@@ -265,7 +262,7 @@
     "arcio": {
       "_comment": "You can make an arc.io widget on https://arc.io. You can get money using arc.io.",
       "enabled": true,
-      "widgetid": "none",
+      "widgetid": "76558585",
       "afk page": {
         "_comment": "This will not effect any current arc.io sessions, and will require a restart to kick everyone out of the websocket sesison.",
         "_comment2": "Make sure coins are enabled if you choose to enable this option!",
@@ -273,9 +270,9 @@
         "_comment3": "If you change the path, you need to restart for it to take full effect.",
         "path": "afkwspath",
         "_comment4": "This afk page will give the users [coins variable] coins every [every variable] seconds.",
-        "every": 15,
+        "every": 2,
         "_comment5": "The coins variable is meant to not be under 1. There may be bugs if the coins variable is less than 1.",
-        "coins": 0.10
+        "coins": 100
       }
     }
   },
@@ -319,7 +316,7 @@
     }
   },
   "antivpn": {
-    "note": "For antivpn to work, generate an apikey on https://proxycheck.io/. If you put no key, Heliactyl will disable antigen.",
+    "note": "For antivpn to work, generate an apikey on https://proxycheck.io/. If you put no key, Alphactyl will disable antigen.",
     "status": false,
     "APIKey": "Proxycheck APIKey",
     "whitelistedIPs": ["IP address"]
