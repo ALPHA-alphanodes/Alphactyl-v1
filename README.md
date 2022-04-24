@@ -105,8 +105,8 @@
 # Step 2 Downloading Dash files from github
      & cd ../
      & cd /var/www
-     & git clone https://
-     & cd Alphactyl-v1.0
+     & git clone https://github.com/ALPHA-alphanodes/Alphactyl-v1.git
+     & cd Alphactyl-v1
    
 # Step 3 setting up settings.json
        & nano settings.json
